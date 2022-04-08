@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    background-color: orangered;
+    margin: 50px 50px 50px 50px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+body{
+    background-color: #121212;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+li{
+    background-color: #222222;
+    margin: 10px 50px 10px 10px;
+    padding: 10px;
+    color: darkgrey
+}
+
+a{
+    color: aliceblue;
+}
+
+.homepage{
+    background-color: #222222;
+    margin: 10px 50px 10px 10px;
+    padding: 10px;
+    color: darkgrey
+}

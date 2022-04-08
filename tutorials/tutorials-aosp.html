@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            Xiaomi Mi 9 index - Tutorials AOSP
+        </title>
+        <link rel="stylesheet" href="/stylesheets/tutorials/style-tutorials-aosp.css">
+    </head>
+    <body>
+        <br><a href="index.html" class="homepage">Back to homepage</a>
+        <h1>ROMs AOSP installation</h1>
+        <p class="title">ZIPs used in this tutorial</p>
+        <p>ROM: Lucid v1.0 build 20200427 Queen Cake <strong>---NO GAPPS PACKAGES ARE INCLUDED IN THIS ROM---</strong><br><br>For root: Magisk v20.4<br><br>Kernel: Quantic kernel for Cepheus r8 by @Ayrton990<br><br><br><strong>---PLEASE READ ALL THIS TUTORIAL BEFORE START WITH ANY INSTALLATION---</strong></p>
+        <ol>
+            <li class="img">Boot in TWRP<br><br><img src="/img/tutorials/twrp.png" width="200"></li><br>
+            
+            <li>Transfer to the internal store and flash latest firmware/vendor (can be found <a href="/flashables.html">here</a>)<br><br><strong>---IF YOU ARE CURRENTLY ON LATEST MIUI ROM (EU, ESTABLE, MIUIMIX,ETC) IS NOT NECESSARY TO INSTALL FIRMWARE/VENDOR ZIP. YOU CAN SKIP THIS STEP---</strong><br><br><img src="/img/tutorials/tutorials-aosp/firmware-process.png" width="600"></li>
+            
+            <li class="img">Move your ROM to any folder in internal storage <br><br><img src="/img/tutorials/tutorials-aosp/rom.png" width="200"></li><br><br>
+            
+            <li class="dual">Go to <kbd>Install</kbd> and select your ROM to flash (is not necessary to do wipes before flash the ROM) then swipe the bar to flash<br><br><img src="/img/tutorials/tutorials-aosp/rom-process.png" width="600"></li><br><br>
+            
+            <li>The last step is to do a <kbd>format data</kbd> to avoid data encryption (and a bootloop because of that)<br><br><img src="/img/tutorials/format-data2.png" width="600"></li><br><br>
+            
+            <li>Reboot to system<br><br><img src="/img/tutorials/reboot-system.png" width="400"></li>
+            
+            <h2>If your ROM does not include GApps and if you want to install them</h2>
+            
+            <li>Tranfer your GApps package to the internal storage (smaller packages are recommended for any ROM) <br><br><strong>---KEEP IN MIND THAT WITH SMALLER PACKAGES YOU WILL NOT BE ABLE TO HAVE <kbd>SETUP WIZARD</kbd> AND <kbd>GOOGLE BACKUP</kbd> SERVICES. IF YOU WANT TO INSTALL THEM <a href="/tutorials/tutorials-services.html">CLICK HERE</a> AFTER YOU FLASH YOUR GAPPS PACKAGE---</strong><br><br><img src="/img/tutorials/tutorials-aosp/gapps.png" width="200"></li>
+            
+            <li>If you don't care about the services listed in step #7 you can proceed to do a <kbd>format data</kbd> to avoid data encryiption<br><br><img src="/img/tutorials/format-data2.png" width="600"></li>
+            
+            <li>Reboot to system<br><br><img src="/img/tutorials/reboot-system.png" width="400"></li>
+            
+            <h2>If you want to install any kernel along with magisk<br><br><strong>---A REBOOT IS NECESSARY AFTER INSTALL GAPPS/SERVICES PACKAGES TO CONTINUE TO INSTALL ANY KERNEL OR MAGISK---</strong></h2>
+            
+            <li>Transfer <kbd>kernel.zip</kbd> and <kbd>magisk.zip</kbd> to your internal storage now <br><br><img src="/img/tutorials/kernel-magisk.png" width="200"></li><br><br>
+            
+            <li>Go to <kbd>install</kbd> and select and flash <kbd>magisk.zip</kbd> first, once flashing ends will look like third image<br><br><img src="/img/tutorials/magisk-installation.png" width="600"></li><br><br>
+            
+            <li>Now go to <kbd>install</kbd> again and select and flash your <kbd>kernel.zip</kbd>, once flashing ends will look like third image<br><br><img src="/img/tutorials/kernel-installation.png" width="600"></li><br><br>
+            
+            <li>Wipe Cache/Dalvik is always optional<br><br><img src="/img/tutorials/wipe-dalvik.png" width=200></li><br><br>
+            
+            <li>Reboot system<br><br><img src="/img/tutorials/reboot-system.png" width="400"></li>
+            
+            <h2>If you only want to install any kernel but no magisk<br><br><strong>---A REBOOT IS NECESSARY AFTER INSTALL GAPPS/SERVICES PACKAGES TO CONTINUE TO INSTALL ANY KERNEL OR MAGISK---</strong></h2>
+            
+            <li>You have to transfer <kbd>kernel.zip</kbd> and <kbd>magisk.zip</kbd> to your internal storage now<br><br><img src="/img/tutorials/kernel-magisk.png" width="200"></li><br><br>
+            
+            <li>Go to <kbd>install</kbd> and select and flash <kbd>magisk.zip</kbd> first, once flashing ends will look like third image<br><br><img src="/img/tutorials/magisk-installation.png" width="600"></li><br><br>
+            
+            <li>Now go to install and select and flash your <kbd>kernel.zip</kbd>, once flashing ends will look like third image<br><br><img src="/img/tutorials/kernel-installation.png" width="600"></li><br><br>
+            
+            <li>Do a <kbd>format data</kbd><br><br><img src="/img/tutorials/format-data2.png" width="600">
+            </li><br><br>
+            
+            <li>Wipe <kbd>Dalvik/ART Cache</kbd> and <kbd>Cache</kbd><br><br><img src="/img/tutorials/advanced-wipe.png" width="600"></li><br><br>
+            
+            <li>Reboot system<br><br><img src="/img/tutorials/reboot-system.png" width="400"></li><br>
+            
+            <li>System is ready to use<br><br><img src="/img/tutorials/tutorials-aosp/system.jpg" width="200"></li>
+            
+        </ol>
+        <br><a href="index.html" class="homepage">Back to homepage</a><br><br>
+    </body>
+</html>
